@@ -6,7 +6,26 @@
   font-variation-settings:
     "wdth" 100;
 }
+/* share style */
+.text_primery{
+    color: #ff7f50;
+}
 
+.dark-2{
+    color:rgb(99, 97, 97);
+}
+.section_title{
+    font-size: 35px;
+    font-weight: bold;
+    color:#181818 ;
+}
+.section_description{
+     font-size: 18px;
+    color: #757575;
+}
+.secondary_bg{
+    background-color: #FFF8F3;
+}
 
 /* nav style */
 
@@ -21,14 +40,7 @@ nav{
     font-size: 45px;
     
 }
-/* share style */
-.text_primery{
-    color: #ff7f50;
-}
 
-.dark-2{
-    color:rgb(99, 97, 97);
-}
 nav ul{
     display: flex;
     align-items: center;
@@ -84,3 +96,28 @@ nav ul li a{
     width: 584px;
     height: 676px;
 }
+/* Main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About section */
+.about{
+    border-radius:10px;
+    padding:131px 157px ;
+    text-align: center;
+    margin-top: 130px;
+    
+}
+.about_footer{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.item_descripton{
+    font-weight: bold;
+}
+/* .item_title{
+    font-weight: bold;
+} */
