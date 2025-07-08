@@ -12,12 +12,75 @@
 
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 200px;
 }
 .nav_title{
     font-weight: 800;
     font-size: 45px;
+    
 }
 /* share style */
 .text_primery{
-    color: coral;
+    color: #ff7f50;
+}
+
+.dark-2{
+    color:rgb(99, 97, 97);
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.btn_primery{
+    background-color:#FD6E0A;
+    font-weight: 700px;
+    color: white;
+    padding: 18px 35px 19px 36px;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+nav ul li{
+    list-style: none;
+    margin: 51px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px; 
+    
+}
+/* banner style */
+.header{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+.banner{
+    display:flex;
+    justify-content: space-between;
+    margin:0 35px 0 200px;
+}
+.banner_content{
+    max-width: 885px;
+}
+.banner_greeting{
+    font-size: 45px;
+    font-weight: 600;
+    color:rgb(99, 97, 97);
+}
+.banner_title{
+    font: weight 800px;
+    font-size: 85px;
+}
+.banner_description{
+    font-size: 18px;
+    color: #757575;
+
+}
+.banner_profile_pic{
+    width: 584px;
+    height: 676px;
 }
