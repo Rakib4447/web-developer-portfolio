@@ -26,6 +26,9 @@
 .secondary_bg{
     background-color: #FFF8F3;
 }
+.text_align{
+    text-align: center;
+}
 
 /* nav style */
 
@@ -97,6 +100,10 @@ nav ul li a{
     height: 676px;
 }
 /* Main style */
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 main{
     max-width: 1140px;
     margin: 0 auto;
@@ -107,7 +114,7 @@ main{
     border-radius:10px;
     padding:131px 157px ;
     text-align: center;
-    margin-top: 130px;
+    
     
 }
 .about_footer{
@@ -118,6 +125,15 @@ main{
 .item_descripton{
     font-weight: bold;
 }
-/* .item_title{
-    font-weight: bold;
-} */
+/* skill style */
+.skills_container{
+    display: flex;
+    gap: 24px;
+  
+
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 3px 50px 0px #d8d4d4;
+}
