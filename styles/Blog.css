@@ -122,7 +122,7 @@ main{
     justify-content: space-around;
     
 }
-.item_descripton{
+.item_description{
     font-weight: bold;
 }
 /* skill style */
@@ -137,3 +137,18 @@ main{
     border-radius: 5px;
     box-shadow: 0 3px 50px 0px #d8d4d4;
 }
+/* resume section style */
+.resume_container{
+    display: flex;
+    gap: 24px;
+}
+.experience_description{
+    color: #757575;
+}
+.experince_sub_title{
+    color: #757575;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.resume_download{
+    margin-top: 50px;}
